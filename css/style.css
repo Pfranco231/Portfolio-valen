@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.degrand-blue{
+    background: linear-gradient(to right, rgb(88, 88, 255), skyblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.welcome {
+    background-image: url("../imgs/sierras.webp");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.background-welcome{
+    background-color: white;
+    padding: 20px;
+    transition: 0.5s;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.background-welcome:hover{
+    background-color: white;
+    padding: 25px;
+    transition: 0.5s;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.allura-regular {
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.LinkAboutMe{
+    background-color: rgb(54, 54, 54); 
+    color: white; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.5s; 
+    border-radius: 10px; 
+    display: flex; 
+    gap: 5px; 
+    align-items: center;
+}
+.LinkAboutMe:hover{
+    background-color: rgb(54, 54, 54); 
+    color: white; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 0.5s; 
+    border-radius: 10px; 
+    display:flex; 
+    gap: 5px; 
+    align-items: center;
+}
+
+.LinkProyects{
+    background: linear-gradient(to right, rgb(88, 88, 255), rgb(117, 180, 205));
+    color: white; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.5s; 
+    border-radius: 10px; 
+    display: flex; 
+    gap: 5px; 
+    align-items: center;
+}
+.LinkProyects:hover{
+    background-color: rgb(54, 54, 54); 
+    color: white; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    transition: 0.5s; 
+    border-radius: 10px; 
+    display:flex; 
+    gap: 5px; 
+    align-items: center;
+}
+
+
+
