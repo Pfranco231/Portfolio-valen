@@ -49,6 +49,25 @@ li{
     transition: 0.5s;
 }
 
+@media (max-width: 940px){
+    .img-about-me{
+        height: 300px;
+        transition: 0.5s;
+    }
+    
+    .img-about-me:hover{
+        height: 310px;
+        transition: 0.5s;
+    }
+}
+
+@media (max-width: 791px){
+    .mobile-aboutMe{
+        margin: 20px;
+        align-items: center;
+    }
+}
+
 .degrand-blue{
     background: linear-gradient(to right, rgb(88, 88, 255), skyblue);
     -webkit-background-clip: text;

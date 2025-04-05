@@ -3,7 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Valentino Martinez - Inicio</title>
+    <meta name="description" content="Portafolio de Valentino Martinez, editor y fotógrafo apasionado por capturar momentos y crear historias visuales únicas.">
+    <meta name="keywords" content="Valentino Martinez, editor, fotógrafo, portafolio, edición de video, fotografía, diseño digital, proyectos creativos">
+    <meta name="author" content="Valentino Martinez">
+    <meta property="og:title" content="Portafolio de Valentino Martinez">
+    <meta property="og:description" content="Explora los proyectos de Valentino Martinez, un editor y fotógrafo dedicado a capturar momentos únicos y crear historias visuales.">
+    <meta property="og:image" content="imgs/about-me.jpg">
+    <meta property="og:url" content="https://tu-dominio.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="imgs/logo.jpg" type="image/jpeg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -20,16 +29,16 @@
                 <h2 class="allura-regular">Editor y Fotógrafo</h2>
                 <p>Apasionado por capturar momentos <br>y crear historias visuales únicas</p>
                 <div style="display: flex; justify-content: center; gap:10px;">
-                    <a href="" class="LinkAboutMe"><img width="30" height="30" src="https://img.icons8.com/fluency/48/conference-call.png" alt="conference-call"/><strong>Sobre Mi</strong></a>
-                    <a href="" class="LinkProyects"><img width="30" height="30" src="https://img.icons8.com/deco/48/project.png" alt="project"/><strong>Ver Proyectos</strong></a>
+                    <a href="#about-me" class="LinkAboutMe"><img width="30" height="30" src="https://img.icons8.com/fluency/48/conference-call.png" alt="conference-call"/><strong>Sobre Mi</strong></a>
+                    <a href="#proyects" class="LinkProyects"><img width="30" height="30" src="https://img.icons8.com/deco/48/project.png" alt="project"/><strong>Ver Proyectos</strong></a>
                 </div>
             </div>
         </div>
 
 
-        <div class="about-me" data-aos="fade-up" data-aos-duration="500">
+        <div class="about-me" id="about-me" data-aos="fade-up" data-aos-duration="500">
           <img src="imgs/about-me.jpg" alt="" height="500px" class="img-about-me">
-          <div>
+          <div class="mobile-aboutMe">
             <h2 class="degrand-blue"><strong>Sobre Mí</strong></h2>
             <p>Desde joven, me cautivó el mundo de la edición y la fotografía. Mi pasión por <br> capturar momentos y transformarlos en historias visuales me ha llevado a <br> especializarme en herramientas como Premiere y Canvas, mientras exploro <br> constantemente nuevas formas de expresión creativa con Photoshop.</p>
             <div class="skils">
@@ -80,7 +89,7 @@
         </div>
 
 
-        <div class="proyects" data-aos="fade-up" data-aos-duration="500">
+        <div class="proyects" id="proyects" data-aos="fade-up" data-aos-duration="500">
           <h2 class="degrand-blue"><strong>Mis Proyectos</strong></h2>
           <p>Una selección de mis trabajos más destacados</p>
           <div class="card-container">
@@ -89,7 +98,7 @@
               <div class="card-body">
                 <h5 class="card-title"><strong>Proyecto de fotografía</strong></h5>
                 <p class="card-text">Serie fotográfica capturando momentos únicos</p>
-                <a href="#" class="boton background-green"><strong>Ver más</strong></a>
+                <a href="pages/proyects.html" class="boton background-green"><strong>Ver más</strong></a>
               </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -97,7 +106,7 @@
               <div class="card-body">
                 <h5 class="card-title"><strong>Edición de Video</strong></h5>
                 <p class="card-text">Montaje y edición de cortometraje</p>
-                <a href="#" class="boton background-green"><strong>Ver más</strong></a>
+                <a href="pages/proyects.html" class="boton background-green"><strong>Ver más</strong></a>
               </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -105,7 +114,7 @@
               <div class="card-body">
                 <h5 class="card-title"><strong>Diseño Digital</strong></h5>
                 <p class="card-text">Creaciones artísticas en Canvas</p>
-                <a href="#" class="boton background-green"><strong>Ver más</strong></a>
+                <a href="pages/proyects.html" class="boton background-green"><strong>Ver más</strong></a>
               </div>
             </div>
           </div>
