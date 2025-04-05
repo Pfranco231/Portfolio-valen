@@ -6,6 +6,7 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
     </style>
@@ -14,7 +15,7 @@
     <header></header>
     <main>
         <div class="welcome">
-            <div class="background-welcome">
+            <div class="background-welcome" data-aos="fade-up" data-aos-duration="1500">
                 <h1 class="degrand-blue"><strong>Valentino Martinez</strong></h1>
                 <h2 class="allura-regular">Editor y Fotógrafo</h2>
                 <p>Apasionado por capturar momentos <br>y crear historias visuales únicas</p>
@@ -26,8 +27,8 @@
         </div>
 
 
-        <div class="about-me">
-          <img src="imgs/about-me.jpg" alt="" height="500px">
+        <div class="about-me" data-aos="fade-up" data-aos-duration="500">
+          <img src="imgs/about-me.jpg" alt="" height="500px" class="img-about-me">
           <div>
             <h2 class="degrand-blue"><strong>Sobre Mí</strong></h2>
             <p>Desde joven, me cautivó el mundo de la edición y la fotografía. Mi pasión por <br> capturar momentos y transformarlos en historias visuales me ha llevado a <br> especializarme en herramientas como Premiere y Canvas, mientras exploro <br> constantemente nuevas formas de expresión creativa con Photoshop.</p>
@@ -79,12 +80,12 @@
         </div>
 
 
-        <div class="proyects">
+        <div class="proyects" data-aos="fade-up" data-aos-duration="500">
           <h2 class="degrand-blue"><strong>Mis Proyectos</strong></h2>
           <p>Una selección de mis trabajos más destacados</p>
           <div class="card-container">
             <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="imgs/fotos-cards/fotos.jpg" class="card-img-top" alt="..." height="160px">
               <div class="card-body">
                 <h5 class="card-title"><strong>Proyecto de fotografía</strong></h5>
                 <p class="card-text">Serie fotográfica capturando momentos únicos</p>
@@ -92,7 +93,7 @@
               </div>
             </div>
             <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="imgs/fotos-cards/computadora-editando.jpg" class="card-img-top" alt="..." height="160px">
               <div class="card-body">
                 <h5 class="card-title"><strong>Edición de Video</strong></h5>
                 <p class="card-text">Montaje y edición de cortometraje</p>
@@ -100,7 +101,7 @@
               </div>
             </div>
             <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="imgs/fotos-cards/photoshop.jpg" class="card-img-top" alt="..." height="160px">
               <div class="card-body">
                 <h5 class="card-title"><strong>Diseño Digital</strong></h5>
                 <p class="card-text">Creaciones artísticas en Canvas</p>
@@ -114,7 +115,39 @@
 
 
 
-        <div class="contact"></div>
+        <div class="contact" data-aos="fade-up" data-aos-duration="500">
+          <center>
+            <h2 class="degrand-blue"><strong>Contactarme</strong></h2>
+            <p>Aqui estan todas mis Redes Sociales donde contactarme</p>
+
+            <div style="display: flex; justify-content: center; gap: 35px; flex-wrap: wrap;">
+              <a href="" class="img-social">
+                <img width="50" height="50" src="https://img.icons8.com/ios/50/whatsapp--v1.png" alt="whatsapp--v1"/>
+
+              </a>
+              <a href="" class="img-social">
+                <img width="50" height="50" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="instagram-new--v1"/>
+                
+              </a>
+              <a href="" class="img-social">
+                <img width="50" height="50" src="https://img.icons8.com/ios/100/tiktok--v1.png" alt="tiktok--v1"/>
+
+              </a>
+              <a href="" class="img-social">
+                <img width="50" height="50" src="https://img.icons8.com/ios/100/youtube-play--v1.png" alt="youtube-play--v1"/>
+
+              </a>
+              <a href="" class="img-social">
+                <img width="50" height="50" src="https://img.icons8.com/ios/100/telegram.png" alt="telegram"/>
+
+              </a>
+              <a href="" class="img-social">
+                <img width="50" height="50" src="https://img.icons8.com/ios/100/mail.png" alt="mail"/>
+
+              </a>
+            </div>
+          </center>
+        </div>
 
 
 
@@ -125,6 +158,11 @@
     <footer>
         <h5>©2025 Valentino Martinez. Todos los derechos reservados.</h5>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="js/index.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
