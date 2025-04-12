@@ -68,6 +68,14 @@ li{
     -webkit-text-fill-color: transparent;
 }
 
+.degrand-green{
+    background: linear-gradient(to right, skyblue, #C1F0DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
 .welcome {
     background-image: url("../imgs/sierras.webp");
     background-position: top;
@@ -181,8 +189,18 @@ li{
 }
 
 
+.footer-normal{
+    background-color: #F5F5F5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-top: 120px;
+}
+
 @media(max-width: 1023px) {
-    footer{
+    .footer-quieto{
         background-color: #F5F5F5;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -193,7 +211,7 @@ li{
     }
 }
 @media(min-width: 1024px) {
-    footer{
+    .footer-quieto{
         background-color: #F5F5F5;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -246,6 +264,28 @@ li{
 .div-canvas img:hover{
     height: 310px;
     transition: 0.2s;
+}
+
+/*
+Videos
+*/
+
+.div-edits{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.div-edits video{
+    max-height: 250px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: rgb(57, 57, 57);
 }
 
 
